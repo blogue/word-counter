@@ -4,11 +4,11 @@ using System.Collections.Generic;
 
  namespace WordCounter
 {
-  public class Counter
+  public class RepeatCounter
   {
 
 
-    public int FindWord(string userString, string userWord)
+    public int CountRepeats(string userString, string userWord)
     {
       int wordCounter = 0;
       char[] delimCharacters = {' ', ','};

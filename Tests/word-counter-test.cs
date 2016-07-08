@@ -9,8 +9,8 @@ namespace WordCounter
     [Fact]
     public void Counter_thedogthedogthe_3()
     {
-      Counter c = new Counter();
-      Assert.Equal(3, c.FindWord("the dog the dog the", "the"));
+      RepeatCounter c = new RepeatCounter();
+      Assert.Equal(3, c.CountRepeats("the dog the dog the", "the"));
     }
 
   }
